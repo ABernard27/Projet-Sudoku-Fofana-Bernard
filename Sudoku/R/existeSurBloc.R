@@ -5,3 +5,5 @@
 #'
 
 existeSurBloc
+
+# X[1:3,1:3] -> premier bloc 3x3
