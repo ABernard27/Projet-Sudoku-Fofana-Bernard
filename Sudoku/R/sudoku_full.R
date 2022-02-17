@@ -1,10 +1,15 @@
-X = matrix(0,9,9)
-X[1,] = sample(1:9)
 #' Génère un Sudoku aléatoirement
 #'
 #' @param None
 #' @return Un Sudoku 9x9
 #'
+
+
+source("existeSurLigne.R")
+source("existeSurColonne.R")
+
+X = matrix(0,9,9)
+X[1,] = sample(1:9)
 
 for (i in 1:2){
   X[i+1,4:6]<-X[i,1:3]
@@ -27,6 +32,8 @@ for (i in c(0,3,6)){
 
 X %>%
   datatable(class="cell-border compact hover nowrap stripe",
-            options=list(ordering=FALSE,lengthMenu = 9, dom='t'),
+            options=list(ordering=FALSE, dom='t'),
             editable = list(target = "cell", disable = list(columns = 0)),
             colnames=paste('',1:9), rownames=paste('',1:9))
+
+existeSurLigne(X,1,4)
