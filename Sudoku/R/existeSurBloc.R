@@ -1,9 +1,18 @@
-#' Détermine s'il existe déjà le numéro dans le bloc 3x3
+#' Détermine si le chiffre est déjà présent dans le bloc
 #'
-#' @param X,i,k
-#' @return True ou false
+#' @param X,i,(l,c)
+#' @return True ou False
 #'
 
-existeSurBloc
+source('WhichBloc.R')
 
-# X[1:3,1:3] -> premier bloc 3x3
+existeSurBloc <- function(X,i,l,c){
+  bloc <- WhichBloc(X,l,c)
+  if (length(unique(bloc==i))==2){
+    print('TRUE')
+  }
+  else{
+    print('FALSE')
+  }
+}
+
