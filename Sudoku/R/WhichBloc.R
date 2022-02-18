@@ -9,5 +9,3 @@ WhichBloc <- function(X,l,c){
   return(X[v[1]*3+(1:3),v[2]*3+(1:3)])
 }
 
-
-

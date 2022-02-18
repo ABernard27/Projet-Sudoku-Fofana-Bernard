@@ -16,3 +16,4 @@ existeSurBloc <- function(X,i,l,c){
   }
 }
 
+

@@ -6,7 +6,13 @@
 
 incomSudo <- function(X){
   for (i in 1:75){
-    X[floor(runif(1,1,10)),floor(runif(1,1,10))] <- "   "
+    X[floor(runif(1,1,10)),floor(runif(1,1,10))] <- NA
   }
-  sudoplot(X)
+  return(X)
 }
+
+X=sudo()
+X
+X=incomSudo(X)
+X
+existeSurBloc(X,0,0,0)
