@@ -30,10 +30,9 @@ for (i in c(0,3,6)){
   X[(1:3)+i,] <- X[(1:3)+i,][c(sample(1:3)),]
 }
 
+library(DT)
 X %>%
   datatable(class="cell-border compact hover nowrap stripe",
             options=list(ordering=FALSE, dom='t'),
             editable = list(target = "cell", disable = list(columns = 0)),
             colnames=paste('',1:9), rownames=paste('',1:9))
-
-existeSurLigne(X,1,4)
