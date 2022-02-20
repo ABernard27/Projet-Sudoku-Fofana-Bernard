@@ -20,10 +20,7 @@
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for future file timestamps ... OK
-* checking DESCRIPTION meta-information ... WARNING
-Non-standard license specification:
-  What license is it under?
-Standardizable: FALSE
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -36,4 +33,4 @@ Loading log:
 Error in library(Sudoku) : there is no package called ‘Sudoku’
 Execution halted
 * DONE
-Status: 1 ERROR, 1 WARNING
+Status: 1 ERROR
