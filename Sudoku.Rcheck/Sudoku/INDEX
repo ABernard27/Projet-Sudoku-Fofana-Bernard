@@ -1,0 +1,11 @@
+WhichBloc               Détermine le bloc dans lequel se trouve le
+                        chiffre demandé
+existeSurBloc           Détermine si le chiffre est déjà présent dans
+                        le bloc
+existeSurColonne        Détermine s'il existe déjà le numéro sur la
+                        colonne
+existeSurLigne          Détermine s'il existe déjà le numéro sur la
+                        ligne
+incomSudo               Affiche la grille de sudoku
+sudo                    Génère un Sudoku aléatoirement
+sudoplot                Affiche la grille de sudoku
