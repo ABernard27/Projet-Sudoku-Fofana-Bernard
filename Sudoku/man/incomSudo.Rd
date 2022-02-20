@@ -4,7 +4,7 @@
 \alias{incomSudo}
 \title{Affiche la grille de sudoku}
 \usage{
-incomSudo(X)
+incomSudo()
 }
 \value{
 la grille
