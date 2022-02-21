@@ -8,4 +8,3 @@ existeSurLigne          Détermine s'il existe déjà le numéro sur la
                         ligne
 incomSudo               Affiche la grille de sudoku
 sudo                    Génère un Sudoku aléatoirement
-sudoplot                Affiche la grille de sudoku
