@@ -1,19 +1,34 @@
 library(shiny)
 library(shinyWidgets)
 library(shinythemes)
+library(shinydashboard)
 
 shinyUI(fluidPage(
+    theme = shinytheme('darkly'),
 
-    titlePanel("Sudoku"),
-
-    theme = shinytheme('flatly'),
+    titlePanel(strong(HTML("Jeu de Sudoku"))),
 
     sidebarLayout(
         sidebarPanel(
-        radioButtons(
-            inputId = "text",
-            label = "Choisis une difficulté", choices = c('Facile','Moyen','Difficile','Expert')
-        )),
+            p(strong(HTML("Comment jouer? C'est super simple"))),
+            p(HTML(text = "Il suffit de remplir les cases de sorte à avoir tous les chiffres de 1
+                   à 9 sur une même ligne, une même colonne et un même bloc 3x3. Fais bien
+                   attention ! Good Luck !")),
+            br(),
+            fixedRow(
+                column(4,
+                       p(HTML("   "))
+                ),
+                column(8,
+                       actionBttn("jouer", label = "Jouer !",
+                                  style ="minimal",color = "success")
+                )
+            ),
+            radioButtons(
+                inputId = "text",
+                label = "", choices = c('Facile','Moyen','Difficile','Expert'),
+                selected = 'Moyen'
+            )),
         mainPanel(plotOutput(outputId = 'plotsudoku'))
     )
 ))
