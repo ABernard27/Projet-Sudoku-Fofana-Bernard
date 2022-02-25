@@ -8,9 +8,14 @@ des fonctions permettant de :
 - générer des grilles de Sudoku incomplètes associées à un niveau de difficulté.
 
 # Démarche
-- La génération de la grille complète avec le package "sample" du logiciel R qui gère des nombres aléatoires et nous avons appelé la fonction Sudo ; 
-- Pour générer la grille incomplète, nous nous sommes servi de la de fonction sudo, c'est à dire la grille complète. nous avons également utiliser un autre package de R qui s'appelle sudoplot;
+- La grille complète a été générée avec le package "sample" du logiciel R qui génère des nombres aléatoires ; 
+- Pour générer la grille incomplète, nous nous sommes servi de la grille complète. Nous avons également utilisé un autre package de R qui s'appelle sudoplot;
 - Pour le solveur, nous avons conçu quatre fonctions à savoir ExisteSurLigne qui vérifie si un un nombre se trouve sur une ligne, ExisteSurcolonne pour la colonne, ExisteBloc pour le bloc, EstValide qui vérifie les trois précedentes en même temps et enfin la fonction proprement dite qui résout le sudoku;
 - Le niveau de difficulté est fonction du nombre de valeurs dans le sudoku.
 
 # Tâches
+
+
+
+# Informations supplémentaires
+
