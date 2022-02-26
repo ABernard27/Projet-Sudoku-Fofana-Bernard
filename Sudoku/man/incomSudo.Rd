@@ -2,13 +2,13 @@
 % Please edit documentation in R/incomSudo.R
 \name{incomSudo}
 \alias{incomSudo}
-\title{Affiche la grille de sudoku}
+\title{Génère une grille de sudoku incomplète}
 \usage{
 incomSudo()
 }
 \value{
-la grille
+
 }
 \description{
-Affiche la grille de sudoku
+Génère une grille de sudoku incomplète
 }
