@@ -1,7 +1,7 @@
 #' Affiche la grille de sudoku
 #'
 #' @param X
-#' @return la grille
+#' @return
 #'
 
 library(gtable)
