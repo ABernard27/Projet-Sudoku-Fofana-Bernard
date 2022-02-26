@@ -20,8 +20,10 @@ shinyUI(fluidPage(
                        p(HTML("   "))
                 ),
                 column(8,
-                       actionBttn("jouer", label = "Jouer !",
-                                  style ="minimal",color = "success")
+                       actionButton(
+                           inputId = "jouer",
+                           label = "Jouer !"
+                           )
                 )
             ),
             radioButtons(
@@ -29,6 +31,12 @@ shinyUI(fluidPage(
                 label = "", choices = c('Facile','Moyen','Difficile','Expert'),
                 selected = 'Moyen'
             )),
-        mainPanel(plotOutput(outputId = 'plotsudoku'))
-    )
+        mainPanel(
+            tabsetPanel(
+                tabPanel("Sudoku", plotOutput("plotsudoku")),
+                tabPanel("Solution")
+            )
+    ))
 ))
+
+

@@ -4,12 +4,11 @@
 #' @return
 #'
 
-library(gtable)
-library(grid)
-library(gridExtra)
-par(bg = 'black')
 
 sudoplot <- function(X){
+  library(gtable)
+  library(grid)
+  library(gridExtra)
   g <- tableGrob(X, rows = NULL, widths=unit(rep(40,9),"pt"),heights=unit(rep(40,9),"pt"),
                  theme = ttheme_default(base_size = 30 ,base_colour = 'black'))
   g <- gtable_add_grob(g,
