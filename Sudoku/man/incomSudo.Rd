@@ -7,7 +7,7 @@
 incomSudo()
 }
 \value{
-
+La matrice incomplète
 }
 \description{
 Génère une grille de sudoku incomplète
