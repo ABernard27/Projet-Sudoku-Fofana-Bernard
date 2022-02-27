@@ -1,5 +1,7 @@
 
 
+
+
 # Fonction de résolution d'un sudoku
 
 # Écrivons une fonction une qui vérifie si un chiffre appartient à une ligne ou pas
@@ -26,7 +28,8 @@ ExisteLigne <- function(X,row,num){
 }
 
 # test
-ExisteLigne (sudoku,2,7)
+B
+ExisteLigne (B,1,4)
 
 # Ecrivons une fonction une qui vérifie si un chiffre appartient à une colonne ou pas
 
@@ -38,7 +41,7 @@ ExisteColonne <- function(X,col,num){
 }
 
 #test
- ExisteColonne(sudoku,3,5)
+ ExisteColonne(B,3,1)
 
  # Ecrivons une fonction une qui vérifie si un chiffre appartient à une bloc ou pas
 
@@ -57,7 +60,7 @@ ExisteBloc<- function(X,row,col,num){
 
 #test
 
-ExisteBloc(sudoku,1,2,5)
+ExisteBloc(B,1,2,5)
 
 # Ecrivons une fonction que nous allons appeler "EstValide" qui exécute les trois précendentes fonctions
 
@@ -75,8 +78,8 @@ EstValide<- function(X,row,col,num){
 }
 
 # test
-
-EstValide(sudoku,1,2,7)
+B
+EstValide(B,1,3,7)
 
 # EstValideGénérale
 
@@ -97,8 +100,8 @@ EstValideG<- function(X,row,col,num){
 
 # test
 
-
-EstValideG(sudoku,9,7,3)
+B
+EstValideG(B,2,7,9)
 
 # Solveur qui utilise à son tour la dernière fonction
 
@@ -121,34 +124,19 @@ Solveur_Sudoku<- function(X){
 
     X[row,col]<- i
     solve<- Solveur_Sudoku(X) # Fonction recursive
-    solve
+    
     if(!is.null(solve)){ # si le nombre placé dans la mauvaise cellule, ça essaye un autre.
 
-
+      return(solve)
     }
-    return(solve)
   }
   return(NULL)
+  
 }
 
 
 # test
 
-
-sudoku<- matrix(c(NA,NA,NA,NA,NA,3,4,NA,NA,
-                  NA,NA,2,NA,NA,NA,NA,5,7,
-                  NA,NA,NA,7,NA,6,NA,NA,NA,
-                  NA,9,NA,NA,NA,7,NA,NA,9,
-                  1,2,NA,NA,NA,NA,NA,8,NA,
-                  NA,5,NA,5,NA,2,NA,NA,NA,
-                  7,NA,3,NA,NA,NA,NA,NA,NA,
-                  8,NA,NA,NA,NA,6,NA,NA,NA,
-                  9,NA,NA,4,1,NA,NA,6,NA),
-                nrow=9,ncol=9, byrow=TRUE)
-sudoku
-res<- Solveur_Sudoku(sudoku)
-res
-system.time(res)  # donne le temps d'exécution
 
 
 # test2
@@ -169,5 +157,12 @@ sudoku2<- Solveur_Sudoku(sudoku2)
 sudoku2
 system.time(sudoku2)  # donne le temps d'exécution
 
+# 
 
-
+A=sudo()
+B=incomSudo(A)
+incomPlot(B)
+D=incomPlot(A)
+D
+E=Solveur_Sudoku(B)
+incomPlot(E)
