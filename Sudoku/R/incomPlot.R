@@ -5,8 +5,7 @@
 #'
 
 
-incomPlot <- function(){
-  X <- incomSudo()
+incomPlot <- function(x){
   for (i in 1:9){
     for (j in 1:9){
       if (is.na(X[i,j])){
@@ -16,4 +15,5 @@ incomPlot <- function(){
   }
   sudoplot(X)
 }
+
 
