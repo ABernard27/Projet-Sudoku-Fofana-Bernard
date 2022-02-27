@@ -8,7 +8,7 @@
 
 existeSurBloc <- function(X,i,l,c){
   bloc <- WhichBloc(X,l,c)
-  if (length(unique(bloc[1,]==i))==2 | length(unique(bloc[2,]==i))==2 | length(unique(bloc[3,]==i))==2){
+  if (i %in% bloc){
     return(TRUE)
   }
   else{
