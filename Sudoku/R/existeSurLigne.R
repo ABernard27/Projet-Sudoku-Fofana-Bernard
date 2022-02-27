@@ -7,10 +7,10 @@
 
 existeSurLigne <- function(X,i,k){
   if (length(unique(X[k,]==i))==2){
-    print('TRUE')
+     return(TRUE)
   }
   else{
-    print('FALSE')
+     return(FALSE)
   }
 }
 
