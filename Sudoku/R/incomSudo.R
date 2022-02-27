@@ -4,10 +4,10 @@
 #' @return
 #'
 
-incomSudo <- function(){
-  X <- sudo()
+incomSudo <- function(X){
   for (i in 1:75){
     X[floor(runif(1,1,10)),floor(runif(1,1,10))] <- NA
   }
   return(X)
 }
+
