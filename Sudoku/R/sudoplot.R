@@ -31,4 +31,3 @@ sudoplot <- function(X){
 }
 
 
-

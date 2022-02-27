@@ -4,7 +4,8 @@
 #' @return Une grille incomplète
 #'
 
-incomPlot <- function(X){
+incomPlot <- function(){
+  X <- incomSudo()
   for (i in 1:9){
     for (j in 1:9){
       if (is.na(X[i,j])){
