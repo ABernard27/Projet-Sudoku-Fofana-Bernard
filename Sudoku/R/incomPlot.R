@@ -4,7 +4,6 @@
 #' @return Une grille incomplète
 #'
 
-
 incomPlot <- function(X){
   for (i in 1:9){
     for (j in 1:9){
@@ -15,4 +14,5 @@ incomPlot <- function(X){
   }
   sudoplot(X)
 }
+
 
