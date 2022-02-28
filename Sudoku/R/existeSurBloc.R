@@ -1,6 +1,8 @@
 #' Détermine si le chiffre est déjà présent dans le bloc
 #'
-#' @param X,i,(l,c)
+#' @param X la matrice
+#' @param i le nombre
+#' @param l,c ligne et colonne
 #' @return True ou False
 #'
 

@@ -8,9 +8,11 @@
 #'
 
 possible <- function(X,row,col,number){
-  if (existeSurLigne(X,number,row)==FALSE && existeSurColonne(X,number,col)==FALSE
-      && existeSurBloc(X,number,row, col)==FALSE){
+  if (isFALSE(existeSurLigne(X,number,row)) &&
+      isFALSE(existeSurColonne(X,number,col)) &&
+      isFALSE(existeSurBloc(X,number,row, col))){
     return(TRUE)
   }
-  else{return(FALSE)}
+  return(FALSE)
 }
+
