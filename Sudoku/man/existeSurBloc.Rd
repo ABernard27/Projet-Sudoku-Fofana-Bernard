@@ -6,6 +6,13 @@
 \usage{
 existeSurBloc(X, i, l, c)
 }
+\arguments{
+\item{X}{la matrice}
+
+\item{i}{le nombre}
+
+\item{l, c}{ligne et colonne}
+}
 \value{
 True ou False
 }

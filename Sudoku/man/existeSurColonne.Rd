@@ -6,6 +6,13 @@
 \usage{
 existeSurColonne(X, i, k)
 }
+\arguments{
+\item{X}{la matrice}
+
+\item{i}{le nombre}
+
+\item{k}{la colonne}
+}
 \value{
 True ou false
 }

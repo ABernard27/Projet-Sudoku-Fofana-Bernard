@@ -6,6 +6,13 @@
 \usage{
 existeSurLigne(X, i, k)
 }
+\arguments{
+\item{X}{la matrice}
+
+\item{i}{le nombre}
+
+\item{k}{la ligne}
+}
 \value{
 True ou false
 }
