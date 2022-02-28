@@ -34,7 +34,7 @@ shinyUI(fluidPage(
         mainPanel(
             tabsetPanel(
                 tabPanel("Sudoku", plotOutput("plotsudoku")),
-                tabPanel("Solution")
+                tabPanel("Solution", plotOutput("resolve"))
             )
     ))
 ))
