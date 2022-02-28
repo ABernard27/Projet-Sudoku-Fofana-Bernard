@@ -10,7 +10,6 @@ existeSurColonne <- function(X,i,k){
   if (length(unique(X[,k]==i))==2){
     return(TRUE)
   }
-  else{
-    return(FALSE)
-  }
+
+  return(FALSE)
 }

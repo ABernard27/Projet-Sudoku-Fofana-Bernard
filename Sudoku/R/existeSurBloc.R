@@ -10,8 +10,7 @@ existeSurBloc <- function(X,i,l,c){
   if (i %in% WhichBloc(X,l,c)){
     return(TRUE)
   }
-  else{
-    return(FALSE)
-  }
+
+  return(FALSE)
 }
 
