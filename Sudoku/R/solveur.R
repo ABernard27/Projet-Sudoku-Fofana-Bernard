@@ -19,12 +19,12 @@ solveur<- function(X){
   row<- df[1,1]
   col<- df[1,2]
 
-  p<- EstValideG(X, row, col)
+  p<- EstValide(X, row, col)
 
   for(i in p){
 
     X[row,col]<- i
-    solve<- Solveur_Sudoku(X) # Fonction recursive
+    solve<- solveur(X) # Fonction recursive
 
     if(!is.null(solve)){ # si le nombre placé dans la mauvaise cellule, ça essaye un autre.
 
