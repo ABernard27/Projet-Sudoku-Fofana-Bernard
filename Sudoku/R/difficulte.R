@@ -8,13 +8,13 @@ difficulte <- function(niv){
     int <- 0:700
   }
   if(niv==2){
-    int <- 700:5000
+    int <- 700:2000
   }
   if(niv==3){
-    int <- 5000:15000
+    int <- 2000:8000
   }
   if(niv==4){
-    int <- 15000:1000000000
+    int <- 8000:1000000000
   }
 
   X <- incomSudo()
