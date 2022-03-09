@@ -14,7 +14,7 @@ existeSurLigne(X, i, k)
 \item{k}{la ligne}
 }
 \value{
-True ou false
+TRUE ou FALSE
 }
 \description{
 Détermine s'il existe déjà le numéro sur la ligne
