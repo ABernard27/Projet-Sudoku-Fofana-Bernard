@@ -10,7 +10,7 @@ solveur(X)
 \item{X}{la matrice incomplète}
 }
 \value{
-la matrice remplie
+la matrice remplie et le nombre de retour
 }
 \description{
 Solveur du sudoku

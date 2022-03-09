@@ -3,7 +3,7 @@
 #' @param X la matrice
 #' @param i le nombre
 #' @param k la ligne
-#' @return True ou false
+#' @return TRUE ou FALSE
 #'
 
 

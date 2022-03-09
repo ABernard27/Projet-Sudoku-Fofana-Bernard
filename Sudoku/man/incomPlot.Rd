@@ -4,7 +4,7 @@
 \alias{incomPlot}
 \title{Affiche la grille de sudoku}
 \usage{
-incomPlot()
+incomPlot(X)
 }
 \value{
 Une grille incomplète

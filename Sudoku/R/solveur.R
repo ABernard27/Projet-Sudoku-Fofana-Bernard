@@ -10,7 +10,7 @@ solveur <- function(X){
     NB[i,] <- c(v[i,1],v[i,2],length(EstValide(X,v[i,1],v[i,2])))
   }
   NB <- NB[order(NB[,3]),]
-  back <- back + 1
+  back <- 0
   j <- 1
   X[is.na(X)] <- 0
 
@@ -28,5 +28,6 @@ solveur <- function(X){
       j <- j+1
     }
   }
-  return(X)
+  L <- list("matrice"=X, "Back"=back)
+  return(L)
 }
