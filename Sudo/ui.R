@@ -10,6 +10,10 @@ shinyUI(fluidPage(
 
     sidebarLayout(
         sidebarPanel(
+            tags$head(tags$style(HTML("h1{color: #07AC59;
+                                 font-size: 20px;
+                                 }"))
+            ),
             p(strong(HTML("Comment jouer? C'est super simple"))),
             p(HTML(text = "Il suffit de remplir les cases de sorte à avoir tous les chiffres de 1
                    à 9 sur une même ligne, une même colonne et un même bloc 3x3. Fais bien
@@ -20,10 +24,7 @@ shinyUI(fluidPage(
                        p(HTML("   "))
                 ),
                 column(8,
-                       actionButton(
-                           inputId = "jouer",
-                           label = "Jouer !"
-                           )
+                       h1(strong(HTML("Jouons!")))
                 )
             ),
             radioButtons(
