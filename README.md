@@ -4,7 +4,7 @@ Anne Bernard (anne.bernard@etu.umontpellier.fr)  & Fofana Sikou (sikou.fofana01@
 L’objectif du projet est de créer une bibliothèque R, incluant une application Shiny, contenant
 des fonctions permettant de :
 - générer aléatoirement des grilles de Sudoku complètes,
--<p align="center"> <img src="http://url/to/Sudoku_complete.png" width=200 title="Exemple de Grille Complète"> </p>
+-<p align="center"> <img src=""C:\Users\SCD UM\Pictures\Sudoku_complete.png"" width=200 title="Exemple de Grille Complète"> </p>
 
 - résoudre des grilles de Sudoku incomplètes,
 - générer des grilles de Sudoku incomplètes associées à un niveau de difficulté.
