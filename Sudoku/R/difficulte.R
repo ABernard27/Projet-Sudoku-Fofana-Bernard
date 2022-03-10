@@ -1,7 +1,7 @@
-#' Niveau de difficulté
+#' Renvoie une matrice du niveau de difficulté demandé
 #'
-#' @param niv niveau de difficulté : "Facile", "Moyen", "Difficile", "Expert"
-#' @return un sudoku
+#' @param niv niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3, "Expert"=4
+#' @return affichage du sudoku
 
 difficulte <- function(niv){
   if(niv==1){
