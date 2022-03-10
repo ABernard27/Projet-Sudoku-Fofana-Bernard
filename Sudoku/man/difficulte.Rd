@@ -2,16 +2,16 @@
 % Please edit documentation in R/difficulte.R
 \name{difficulte}
 \alias{difficulte}
-\title{Niveau de difficulté}
+\title{Renvoie une matrice du niveau de difficulté demandé}
 \usage{
 difficulte(niv)
 }
 \arguments{
-\item{niv}{niveau de difficulté : "Facile", "Moyen", "Difficile", "Expert"}
+\item{niv}{niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3, "Expert"=4}
 }
 \value{
-un sudoku
+affichage du sudoku
 }
 \description{
-Niveau de difficulté
+Renvoie une matrice du niveau de difficulté demandé
 }
