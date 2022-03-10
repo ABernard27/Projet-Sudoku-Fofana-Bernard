@@ -6,6 +6,15 @@
 \usage{
 possible(X, row, col, number)
 }
+\arguments{
+\item{X}{une matrice}
+
+\item{row}{la ligne}
+
+\item{col}{la colonne}
+
+\item{number}{le nombre demandé}
+}
 \value{
 True pour valide ou False pour non valide
 }

@@ -1,6 +1,8 @@
 #' Détermine le bloc dans lequel se trouve le chiffre demandé
 #'
-#' @param X,(l,c)
+#' @param X la matrice sudoku
+#' @param l la ligne
+#' @param c la colonne
 #' @return le bloc en question
 #'
 

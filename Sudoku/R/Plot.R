@@ -1,6 +1,6 @@
 #' Affiche la grille de sudoku
 #'
-#' @param X
+#' @param X matrice avec des NA
 #' @return Une grille incomplète
 #'
 

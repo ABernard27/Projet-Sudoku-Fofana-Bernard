@@ -1,7 +1,7 @@
 #' Affiche la grille de sudoku
 #'
-#' @param X
-#' @return
+#' @param X une matrice de sudoku
+#' @return l'affichage du sudoku
 #'
 
 
