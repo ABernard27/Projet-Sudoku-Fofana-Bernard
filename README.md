@@ -31,6 +31,9 @@ Pour vous aider dans votre réussite de résolution de grilles de Sudoku, vous p
 6. Le blocage horizontal	: pour un groupe formé de trois blocs alignés horizontalement, tout chiffre présent dans une ligne d'un bloc se retouve obligatoirement dans une ligne des deux autres blocs ;
 7. L'intersection	: une cellule appartenant à une colonne et une ligne, ne peut contenir un chiffre déjà présent dans cette colonne ou cette ligne ;
 8. La paire exclusive	: si pour deux cellules vides d'une même colonne, même ligne ou même bloc deux chiffres sont possibles, alors ces chiffres ne peuvent pas être présents dans les autres cellules vides de cette même colonne, même ligne ou même bloc.
+# Bibliographie 
+1. Cours (programmation R) de M. MARIN
+2. https://www.kastete.fr/sudoku/regles-du-jeu-et-techniques
 
 -<p align="center"> <img src="C:\Users\SCD UM\Pictures\Sudoku_complete.png" width=200 title="Exemple de Grille Complète"> </p>
 
