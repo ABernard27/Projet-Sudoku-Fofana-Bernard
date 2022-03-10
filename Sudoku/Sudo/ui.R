@@ -29,7 +29,7 @@ shinyUI(fluidPage(
             ),
             radioButtons(
                 inputId = "text",
-                label = "Choisissez un niveau de difficulté!", choices = list('Facile'=1,'Moyen'=2,'Difficile'=3,'Expert'=4),
+                label = "Choisissez un niveau de difficulté!", choices = list('Facile'=1,'Moyen'=2,'Difficile'=3),
                 selected=1
             )),
         mainPanel(

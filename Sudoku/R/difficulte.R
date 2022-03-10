@@ -1,6 +1,6 @@
 #' Renvoie une matrice du niveau de difficulté demandé
 #'
-#' @param niv niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3, "Expert"=4
+#' @param niv niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3
 #' @return affichage du sudoku
 
 difficulte <- function(niv){
@@ -11,10 +11,7 @@ difficulte <- function(niv){
     int <- 700:2000
   }
   if(niv==3){
-    int <- 2000:8000
-  }
-  if(niv==4){
-    int <- 8000:1000000000
+    int <- 2000:5000
   }
 
   X <- incomSudo()
