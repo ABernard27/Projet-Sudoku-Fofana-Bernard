@@ -6,6 +6,13 @@
 \usage{
 WhichBloc(X, l, c)
 }
+\arguments{
+\item{X}{la matrice sudoku}
+
+\item{l}{la ligne}
+
+\item{c}{la colonne}
+}
 \value{
 le bloc en question
 }

@@ -6,6 +6,9 @@
 \usage{
 Plot(X)
 }
+\arguments{
+\item{X}{matrice avec des NA}
+}
 \value{
 Une grille incomplète
 }

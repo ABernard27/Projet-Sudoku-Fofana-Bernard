@@ -1,9 +1,9 @@
 #' Informe sur la validité du nombre dans la ligne/colonne/bloc
 #'
-#' @param X
-#' @param row
-#' @param col
-#' @param number
+#' @param X une matrice
+#' @param row la ligne
+#' @param col la colonne
+#' @param number le nombre demandé
 #' @return True pour valide ou False pour non valide
 #'
 

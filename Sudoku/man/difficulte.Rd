@@ -7,7 +7,7 @@
 difficulte(niv)
 }
 \arguments{
-\item{niv}{niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3, "Expert"=4}
+\item{niv}{niveau de difficulté : "Facile"=1, "Moyen"=2, "Difficile"=3}
 }
 \value{
 affichage du sudoku

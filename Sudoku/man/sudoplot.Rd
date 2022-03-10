@@ -6,8 +6,11 @@
 \usage{
 sudoplot(X)
 }
+\arguments{
+\item{X}{une matrice de sudoku}
+}
 \value{
-
+l'affichage du sudoku
 }
 \description{
 Affiche la grille de sudoku
