@@ -19,3 +19,6 @@ des fonctions permettant de :
 
 # Informations supplémentaires
 
+<p align="center">
+  <img src="" width=200 title="">
+</p>
