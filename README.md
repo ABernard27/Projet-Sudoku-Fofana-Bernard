@@ -11,7 +11,7 @@ des fonctions permettant de :
 - La grille complète a été générée avec le package "sample" du logiciel R qui génère des nombres aléatoires ; 
 - Pour générer la grille incomplète, nous nous sommes servi de la grille complète.
 - Pour le solveur, nous avons conçu quatre fonctions à savoir ExisteSurLigne qui vérifie si un un nombre se trouve sur une ligne, ExisteSurcolonne pour la colonne, ExisteBloc pour le bloc, EstValide qui vérifie les trois précedentes en même temps et enfin la fonction proprement dite qui résout le sudoku;
-- Le niveau de difficulté est fonction du nombre de valeurs manquantes dans le sudoku.
+- Le niveau de difficulté est focntion du nombre de retour du backtraking.
 
 # Tâches
 
