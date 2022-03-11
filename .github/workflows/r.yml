@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck"))
-          remotes::install_deps(pkgdir="./Sudoku/",dependencies = TRUE)
+          remotes::install_deps(pkgdir="./SudokuSA/",dependencies = TRUE)
         shell: Rscript {0}
       - name: Check
-        run: rcmdcheck::rcmdcheck(path="./Sudoku/",args = "--no-manual", error_on = "error")
+        run: rcmdcheck::rcmdcheck(path="./SudokuSA/",args = "--no-manual", error_on = "error")
         shell: Rscript {0}
