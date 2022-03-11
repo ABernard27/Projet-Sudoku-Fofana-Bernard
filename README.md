@@ -20,5 +20,5 @@ Pour l'application shiny c'est très simple : lorsque celle-ci est en marche ell
 
 
 <p align="center">
-  <img src="https://github.com/ABernard27/Projet-Sudoku-Fofana-Bernard/blob/main/Images/shiny.png" width=200 title="Application Shiny">
+  <img src="https://github.com/ABernard27/Projet-Sudoku-Fofana-Bernard/blob/main/Images/shiny.png" width=600 title="Application Shiny">
 </p>
