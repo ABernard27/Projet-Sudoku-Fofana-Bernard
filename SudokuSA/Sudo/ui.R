@@ -9,11 +9,11 @@ library(gridExtra)
 shinyUI(fluidPage(
     theme = shinytheme('darkly'),
 
-    titlePanel(strong(HTML("Jeu de Sudoku"))),
+    titlePanel(h1(strong(HTML("Jeu de Sudoku")))),
 
     sidebarLayout(
         sidebarPanel(
-            tags$head(tags$style(HTML("h1{color: #07AC59;
+            tags$head(tags$style(HTML("h1{color: #13CA87;
                                  font-size: 20px;
                                  }"))
             ),
@@ -26,14 +26,15 @@ shinyUI(fluidPage(
                 column(4,
                        p(HTML("   "))
                 ),
-                column(8,
-                       h1(strong(HTML("Jouons!")))
+                column(2,
+                       actionButton(inputId='jouer',label='',icon=icon('play'))
                 )
             ),
             radioButtons(
                 inputId = "text",
                 label = "Choisissez un niveau de difficulté!", choices = list('Facile'=1,'Moyen'=2,'Difficile'=3),
                 selected=1
+
             )),
         mainPanel(
             tabsetPanel(
