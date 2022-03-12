@@ -13,7 +13,7 @@ des fonctions permettant de :
 - Pour le solveur, nous avons conçu cinq fonctions intermédiaires : ``ExisteSurLigne`` qui vérifie si un nombre se trouve sur une ligne, ``ExisteSurcolonne`` pour la colonne, ``ExisteBloc`` pour le bloc, ``EstValide`` qui vérifie les trois précedentes en même temps et enfin la fonction ``indice`` qui récupère l'indice d'un nombre donné dans un vecteur. Toutes ces fonctions nous ont permis de créer l'algorithme de backtracking. 
 - Pour déterminer le niveau de difficulté du Sudoku nous avons utilisé le nombre de retour de l'algorithme de backtracking, plus il y a de retour plus la solution a demandé du temps à R pour être calculée.
 
-# Les règles du jeu de Sudoku 
+# Règles du jeu de Sudoku 
 Elles sont assez simple à apprendre et à comprendre. Le but est de remplir à l'aide de chiffres de 1 à 9 les cellules vides d'une grille.
 Quelles règles dois-je respecter pour résoudre une grille de Sudoku ?
 1. Chaque colonne doit contenir les chiffres de 1 à 9 ;
