@@ -9,5 +9,10 @@ test_that("Tester la fonction EstValide", {
                 NA,6,NA,NA,NA,NA,NA,9,NA,
                 NA,9,NA,NA,6,2,NA,NA,NA),nrow=9,ncol=9,byrow=T)
   EstValide_T <- EstValide(X,1,9) # Donne toutes les possibilités pour la case vide
-    expect_true(EstValide_T)
+  EstValide_V <- c(2,3,8)
+  bool <- EstValide_T==EstValide_V
+  if(sum(bool)==1){
+    expect_true(FALSE)
+  }
+  else{expect_true(TRUE)}
 })
